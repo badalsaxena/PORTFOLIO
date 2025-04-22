@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjusts scroll position to account for fixed navbar */
+}
+
+/* Additional global styles for smooth transitions */
+* {
+  transition-property: background-color, border-color, opacity, transform;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
